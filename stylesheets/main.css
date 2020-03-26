@@ -1,4 +1,23 @@
 body {
-    background-color: lightgrey;
+    margin: auto;
+    background-color: #EFEFEF;
 }
 
+.side-menu {
+    position: absolute;
+    border: .1px solid black;
+    width: 5rem;
+    height: 100vh;
+}
+
+.upper {
+    background-color: #3E64FF;
+    width: 5rem;
+    height: 50vh;
+}
+
+.lower {
+    background-color: #fff;
+    width: 5rem;
+    height: 50vh;
+}
