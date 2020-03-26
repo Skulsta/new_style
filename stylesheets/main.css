@@ -1,11 +1,13 @@
 body {
     margin: auto;
+    margin-left: 5rem;
     background-color: #EFEFEF;
 }
 
 .side-menu {
     position: absolute;
     border: .1px solid black;
+    margin-left: -5rem;
     width: 5rem;
     height: 100vh;
 }
@@ -20,4 +22,10 @@ body {
     background-color: #fff;
     width: 5rem;
     height: 50vh;
+}
+
+.top-menu {
+    display: flex;
+    padding: 2.5rem 2rem;
+    border: .1px solid black;
 }
