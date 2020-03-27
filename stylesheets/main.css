@@ -14,6 +14,14 @@ body {
 .upper {
     background-color: #3E64FF;
     height: 50vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.upper h2 {
+    transform: rotate(-90deg);
+    margin: 3rem auto;
+    color: #FFDBC0;
 }
 
 .lower {
