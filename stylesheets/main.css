@@ -65,3 +65,16 @@ body {
     background-repeat: no-repeat;
 }
 
+.article {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    margin: auto 20vw;
+    line-height: 2rem;
+}
+
+.article h1 {
+    font-size: 5rem;
+    text-align: center;
+}
