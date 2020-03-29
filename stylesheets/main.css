@@ -63,10 +63,18 @@ body {
 }
 
 .hero {
+    display: flex;
     min-height: 100vh;
     background-image: url("../images/background-logo.svg");
     background-position: center;
     background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'bagnard';
+    margin: auto 15vw;
+    line-height: 5.6rem;
 }
 
 .article {
