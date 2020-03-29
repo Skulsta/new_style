@@ -16,12 +16,15 @@ body {
     height: 50vh;
     display: flex;
     align-items: flex-end;
+    justify-content: center;
 }
 
 .upper h2 {
     transform: rotate(-90deg);
-    margin: 3rem auto;
     color: #FFDBC0;
+    font-size: 2rem;
+    width: 2rem;
+    font-weight: normal;
 }
 
 .lower {
