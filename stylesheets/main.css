@@ -11,25 +11,34 @@ body {
     height: 100vh;
 }
 
-.upper {
-    background-color: #3E64FF;
-    height: 50vh;
+.side-menu h1 {
+    transform: rotate(-90deg);
+    width: 100%;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+    
+
+.upper, .lower {
     display: flex;
-    align-items: flex-end;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 50vh;
 }
 
-.upper h2 {
-    transform: rotate(-90deg);
+.upper {
+    background-color: #3E64FF;
     color: #FFDBC0;
-    font-size: 2rem;
-    width: 2rem;
-    font-weight: normal;
+}
+
+.upper img {
+    margin: auto;
+    margin-top: 2.5rem;
 }
 
 .lower {
     background-color: #fff;
-    height: 50vh;
+    justify-content: flex-end;
 }
 
 .top-menu {
