@@ -2,6 +2,7 @@ body {
     margin: auto;
     margin-left: 6rem;
     background-color: #EFEFEF;
+    font-family: 'NimbusSanLConRegular';
 }
 
 .side-menu {
@@ -11,11 +12,12 @@ body {
     height: 100vh;
 }
 
-.side-menu h1 {
+.side-menu p {
     transform: rotate(-90deg);
     width: 100%;
     margin: auto;
     margin-bottom: 4rem;
+    font-size: 2.4rem;
 }
     
 
